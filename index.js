@@ -1,4 +1,4 @@
-const elementResponse = document.querySelector("#responses")
+const elementResponse = document.querySelector("#response")
 const responses = [
   "Certeza!",
   "Não tenho tanta certeza.",
@@ -27,5 +27,4 @@ function askQuestion () {
   const aleatoryNumber = Math.floor(Math.random() * totalResponses)
 
   elementResponse.innerHTML = responses[aleatoryNumber]
-
 }
