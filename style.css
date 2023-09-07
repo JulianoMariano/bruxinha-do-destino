@@ -84,5 +84,17 @@ input, button {
 #btnButton:hover {
   filter: brightness(1.4);
   cursor: pointer;
-  
+}
+
+#response {
+  font-size: 2rem;
+  margin-top: 3rem;
+  transition: opacity 1s;
+}
+
+#response div {
+  font-size: 2rem;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 1rem;
 }
