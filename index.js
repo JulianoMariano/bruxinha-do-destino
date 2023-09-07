@@ -1,5 +1,5 @@
-const elementResponse = Document.querySelector("#response")
-const inputQuestion = Document.querySelector("#inputQuestion")
+const elementResponse = document.querySelector("#response")
+const inputQuestion = document.querySelector("#inputQuestion")
 const responses = [
   "Certeza!",
   "Não tenho tanta certeza.",
@@ -24,8 +24,8 @@ const responses = [
 
 function askQuestion () {
 
-  if (inputQuestion.value == "") {
-    alert("Digite sua pergunta!!!")
+  if(inputQuestion.value == "") {
+    alert("Por favor, digite sua pergunta !!!")
     return
   }
   
