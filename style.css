@@ -33,7 +33,7 @@ main {
 
 h1 {
   font-size: 3rem;
-  padding: 2rem 0 2rem 0;
+  padding: 1rem 0 2rem 0;
   opacity: 0.9;
 }
 
@@ -73,7 +73,7 @@ input, button {
 }
 
 #btnButton {
-  margin-top: 2rem;
+  margin-top: 1rem;
 
   background-color: blueviolet;
   color: #ffffff;
