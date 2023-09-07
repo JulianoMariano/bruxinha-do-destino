@@ -13,7 +13,7 @@ A bruxinha do destino foi uma aplicação proposta pela RocketSeat no evento Mar
 <br>
 
 <p align="center">
-  <img alt="projeto " src="./assets/preview.png width="90%">
+  <img alt="projeto " src="./assets/preview.png" width="90%">
 </p>
 
 ## 🚀 Tecnologias
