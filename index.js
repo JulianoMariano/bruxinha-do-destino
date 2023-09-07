@@ -23,6 +23,11 @@ const responses = [
 ]
 
 function askQuestion () {
+
+  if (inputQuestion.value == "") {
+    alert("Digite sua pergunta!!!")
+    return
+  }
   
   const totalResponses = responses.length
   const aleatoryNumber = Math.floor(Math.random() * totalResponses)
