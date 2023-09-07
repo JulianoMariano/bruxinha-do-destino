@@ -35,6 +35,8 @@ function askQuestion () {
   const aleatoryNumber = Math.floor(Math.random() * totalResponses)
 
   elementResponse.innerHTML = Question + responses[aleatoryNumber]
+  
+  elementResponse.style.opacity = 1;
 
   setTimeout(function() {
     elementResponse.style.opacity = 0;
