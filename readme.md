@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 A Bruxinha do destino é uma aplicação intrigante e divertida. Projetada para despertar sua curiosidade sobre o que o futuro reserva. Com um toque de misticismo e uma pitada de criatividade, a bruxinha do destino oferece respostas imprevisíveis e emocionantes para suas perguntas sobre o que está por vir. Contando com uma surpresa ao descansar o cursor centimetros acima da bola de cristal. 
 
-- [Visite o projeto online](https://julianomariano.github.io/revelador-de-destino/)
+- [Visite o projeto online](https://julianomariano.github.io/bruxinha-do-destino/)
 
 <!-- ## 🔖 Layout
 
