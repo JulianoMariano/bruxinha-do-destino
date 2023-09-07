@@ -1,5 +1,6 @@
 const elementResponse = document.querySelector("#response")
 const inputQuestion = document.querySelector("#inputQuestion")
+const btnButton = document.querySelector("#btnButton")
 const responses = [
   "Certeza!",
   "Não tenho tanta certeza.",
@@ -29,6 +30,8 @@ function askQuestion () {
     return
   }
 
+  btnButton.setAttribute("disable", true)
+
   const Question = "<div>" + inputQuestion.value + "</div>"
   
   const totalResponses = responses.length
@@ -40,5 +43,6 @@ function askQuestion () {
 
   setTimeout(function() {
     elementResponse.style.opacity = 0;
+    btnButton.removeAttribute("disable")
   }, 3000)
 }
