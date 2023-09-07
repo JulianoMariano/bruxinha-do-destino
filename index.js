@@ -28,9 +28,11 @@ function askQuestion () {
     alert("Por favor, digite sua pergunta no campo acima !!!")
     return
   }
+
+  const Question = "<div>" + inputQuestion.value + "</div>"
   
   const totalResponses = responses.length
   const aleatoryNumber = Math.floor(Math.random() * totalResponses)
 
-  elementResponse.innerHTML = responses[aleatoryNumber]
+  elementResponse.innerHTML = Question + responses[aleatoryNumber]
 }
