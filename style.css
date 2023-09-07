@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+#container {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 2rem 0 2rem 0;
+  opacity: 0.9;
+}
+
+p {
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+  opacity: 0.7;
+}
+
+#img1 {
+  width: 30rem;
+  opacity: 0;
+  position: relative;
+
+  transition: all 800ms;
+}
+
+#img1:hover {
+  opacity: 1;
+  filter: brightness(1.1);
+}
+
+#img2 {
+  width: 10rem;
+  position: absolute;
+  margin: 20rem 0 0 10rem;
+}
+
+input, button {
+  font-size: 2rem;
+
+  width: 90%;
+  padding: 2rem;
+  
+  border: none;
+  border-radius: .5rem;
+}
+
+#btnButton {
+  margin-top: 2rem;
+
+  background-color: blueviolet;
+  color: #ffffff;
+  
+  transition: filter .2s;
+}
+
+#btnButton:hover {
+  filter: brightness(1.4);
+  cursor: pointer;
+  
+}
