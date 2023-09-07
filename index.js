@@ -1,4 +1,5 @@
-const elementResponse = document.querySelector("#response")
+const elementResponse = Document.querySelector("#response")
+const inputQuestion = Document.querySelector("#inputQuestion")
 const responses = [
   "Certeza!",
   "Não tenho tanta certeza.",
