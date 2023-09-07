@@ -25,7 +25,7 @@ const responses = [
 function askQuestion () {
 
   if(inputQuestion.value == "") {
-    alert("Por favor, digite sua pergunta !!!")
+    alert("Por favor, digite sua pergunta no campo acima !!!")
     return
   }
   
